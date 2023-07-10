@@ -1,0 +1,86 @@
+				/*Background image for all webpages */
+				body{
+					background-image:url("dogdark.png");
+					background-size:100%;
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+				}
+	
+
+				
+				/*boxes with info code */
+				.box1{
+					font-style: 'Lato';
+					background-color: transparent;
+					font-size: 150%;
+					color: white;
+					padding: 10px;
+					/*nav bar? */
+					margin-top: 0px;
+					/*boxes */
+					margin-bottom: 30px;
+					margin-left: 400px;
+					margin-right: 400px;
+					text-align: center;
+				} 
+				/* boxes with style */
+				#pp{
+					font-family: 'Lato';font-size: 22px;
+				}
+
+
+				td, th {
+					border: 1px solid #dddddd;
+					text-align: left;
+					padding: 50px;
+				}
+				
+				/* Specify every box to be black. */
+				tr:nth-child(even) {
+					background-color: transparent;
+				}
+                
+				/* Specify every box to be black. */
+				tr:nth-child(odd) {
+					background-color: transparent;
+				}
+				
+
+#navigation {
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
+	
+}
+/* Customize nav bar */
+#navigation a{
+	display: block;
+	color: #DCDCDC;
+	width: 290px;
+	text-decoration: none;
+	padding: 10px 96px;
+	font-family: 'Lato';font-size: 22px;
+	text-align: center;
+	font-size: 14px
+	
+}
+
+#navigation li{
+	width: 24%;
+	display: inline;
+	float: left;
+	border-right:1px solid #555;
+}
+
+#navigation a:link{
+}
+
+#navigation a:visited{
+}
+
+#navigation a:hover{
+}
+
+#navigation a:active{
+}			
+
